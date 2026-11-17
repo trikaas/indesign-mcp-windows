@@ -1,0 +1,14 @@
+# Adicione este bloco ao config.toml do Codex.
+# Substitua C:/projetos/indesign-mcp-windows pela pasta do seu clone.
+[mcp_servers.indesign_windows]
+command = "node"
+args = ["C:/projetos/indesign-mcp-windows/index.js"]
+cwd = "C:/projetos/indesign-mcp-windows"
+startup_timeout_sec = 20
+tool_timeout_sec = 90
+
+[mcp_servers.indesign_windows.env]
+INDESIGN_PROGID = "InDesign.Application.2026"
+INDESIGN_ALLOW_LAUNCH = "1"
+INDESIGN_TIMEOUT_MS = "60000"
+INDESIGN_ALLOW_ARBITRARY_CODE = "0"
