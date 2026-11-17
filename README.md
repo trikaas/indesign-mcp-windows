@@ -1,1 +1,1 @@
-# indesign-mcp-window
+# indesign-mcp-windows
